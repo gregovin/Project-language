@@ -1,0 +1,7 @@
+(define a (x y) (+ (* x x) (* y y)))
+(define <= (x y) (or (< x y) (equal x y))
+(define accumulate (proc wd) (if (equal (count wd) 2) (proc (first wd) (last wd)) (proc (first wd) (accumulate proc (bf word)))))
+(define loopcond (x) (< x 10))
+(define int (x) (+ x 1))
+(define manipulate (x) (* x 2))
+(define factorial (x) (if (> x 1) (* x (factorial (- x 1)) x))
