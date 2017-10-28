@@ -1,8 +1,8 @@
-#Project language
+**#Project language**  
 Its me attempting to write an python compiler for a brand new language.  
-  Project Goals  
+  Project Goals above current
 Some mechism to edit lists in arbitrary dimention  
-###Lambda  
+**###Lambda**  
 coments  
 easier writing files  
-###actual special forms  
+**##actual special forms**  
